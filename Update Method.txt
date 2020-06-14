@@ -1,0 +1,19 @@
+For example, it went to patch 10.6 or higher. How will I update?
+
+Pvlol_succes.vb opens
+
+Pvlol_injector.vb opens and search below.
+
+'' 'DLL ACCEPT' '' Search word is searched.
+
+When you find it, change the part below it.
+
+For example, the value of & H6B47A0 changes after patch 10.6.
+
+WritePointerInteger (Form_Inject1.Text_Client.Text, & H6B47A0, "63816", & H2D8)
+
+With the number of array of bytes I will give you, you can update the program again when a new patch is released.
+
+85 F6 74 0F 8D ?? ?? ?? ?? Find this as array of bytes with cheat engine or ollydbg. There may be more than one result. Write whichever is true, until you find the truth. When you find the correct array of bytes, all you need is the number of pointers.
+
+You only need pointers to update the program.

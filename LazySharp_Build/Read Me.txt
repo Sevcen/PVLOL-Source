@@ -1,0 +1,8 @@
+For Inject Rename DLL lazysharp.dll
+
+---Example----
+
+lazysharp_garena.dll --> [rename] --> lazysharp.dll --> Inject Game --> Play
+
+lazysharp_riot.dll --> [rename] -- > lazysharp.dll --> Inject Game --> Play
+
